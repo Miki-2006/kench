@@ -1,15 +1,11 @@
 import './App.css'
+import Header from './components/Header'
 
 function App() {
 
   return (
     <>
-      <header>
-        <img src="/public/icons/profile.svg" alt="profile" />
-      </header>
-      <main>
-        <h1>kench</h1>
-      </main>
+    <Header/>
     </>
   )
 }
