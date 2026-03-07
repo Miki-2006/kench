@@ -1,4 +1,3 @@
-import ProfileIcon from '/icons/profile.svg'
 import './App.css'
 
 function App() {
@@ -6,8 +5,11 @@ function App() {
   return (
     <>
       <header>
-        <img src={ProfileIcon} alt="profile" />
+        <img src="/public/icons/profile.svg" alt="profile" />
       </header>
+      <main>
+        <h1>kench</h1>
+      </main>
     </>
   )
 }
